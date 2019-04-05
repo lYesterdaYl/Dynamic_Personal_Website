@@ -12,7 +12,7 @@ Base = declarative_base()
 
 
 
-class IMDB_Movie_Info(Base):
+class User(Base):
     __tablename__ = 'user'
 
     id = Column(Integer, primary_key=True)
@@ -21,7 +21,6 @@ class IMDB_Movie_Info(Base):
     gender = Column(Integer, nullable=True)
     age = Column(Integer)
     major = Column(String(50))
-    prefer = Column(String(50))
     telephone = Column(String(20))
     country = Column(String(50))
     state = Column(String(50))
