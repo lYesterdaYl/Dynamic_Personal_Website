@@ -1,0 +1,5 @@
+.idea
+venv
+*.pyc
+*.csv
+Personal_App/personal_app/templates/index.php
